@@ -69,6 +69,9 @@
   .navbar {
     padding: 0px;  
   }
+  .menu-tab .nav-link img {
+    width: 38px;
+  }
 }
 @media only screen and (min-width: 992px) { /* PC */
   .pc-x{
@@ -76,6 +79,9 @@
   } 
   .centered .text .title{
     font-size: 32px;
+  }
+  .menu-tab .nav-link img {
+    width: 88px;
   }
 }
 
@@ -153,7 +159,6 @@ main{
 .menu-tab .nav-link img {
   margin-top: 15px;
   margin-bottom: 15px;
-  width: 88px;
 }
 .menu-tab thead{
   background: #f3f3f3;
