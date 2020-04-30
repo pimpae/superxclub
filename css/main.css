@@ -146,10 +146,10 @@ main{
   margin-top: 10px;
 }
 
-.navbar .nav-item.active , .navbar .nav-item:hover{
+.navbar .nav-item:hover{
   background-color: #A72E33;
 }
-
+ 
 .menu-tab #tabs{
   background: #007b5e;
   color: #eee;
