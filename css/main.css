@@ -85,7 +85,9 @@
   }
 }
 
- 
+.logo{
+  height: 33px;
+}
 
 
 a:hover{
@@ -100,11 +102,9 @@ a:hover{
 @media (min-width: 768px) {
   .position-md-absolute {
     position: absolute;
+    right: 0;
   }
-
-  .navbar-nav .nav-item:nth-child(2) {
-    margin-right: 192px;
-  }
+ 
 }
 
 
@@ -116,7 +116,7 @@ a:hover{
 }
 main{
   background-color: #2B2A26;
-  margin-top: -1px;
+  margin-top: -5px;
 }
 .section2 .container{
   background-color: #fff;
@@ -128,7 +128,28 @@ main{
   color: #000000;
   font-size: 24px;
 }
- 
+
+.navbar .nav-link{
+  color: #fff;
+  padding-left: 15px;
+  font-family: DBHelvethaicaMedCond;
+}
+.nav-link img{
+  height: 27px; 
+}
+.navbar-toggler{
+  right: 0;
+  position: absolute;
+}
+.navbar-toggler .fa-bars{
+  color: #A72E33;
+  margin-top: 10px;
+}
+
+.navbar .nav-item.active , .navbar .nav-item:hover{
+  background-color: #A72E33;
+}
+
 .menu-tab #tabs{
   background: #007b5e;
   color: #eee;
@@ -303,4 +324,16 @@ footer .ul-con li:nth-child(3):before{
   position: absolute;
   height: 33px;
   margin-top: 6px;
+}
+
+
+@media only screen and (max-width: 991px) { /* MOBILE */
+  .navbar .nav-link img{
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) { /* PC */
+  .navbar .nav-link span{
+    display: none;
+  }
 }
